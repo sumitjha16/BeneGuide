@@ -4,6 +4,8 @@
 
 ![BeneGuide](https://img.shields.io/badge/Status-Active-brightgreen) ![Version](https://img.shields.io/badge/Version-1.0.0-blue) ![React](https://img.shields.io/badge/React-18.x-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)
 
+**[🚀 Live Demo](https://beneguide.netlify.app/)**
+
 ## 🎯 Project Overview
 
 BeneGuide is an intelligent healthcare benefits navigation system that helps users discover relevant benefits and create actionable plans. Using advanced AI classification and tailored content generation, it transforms vague health queries into specific, actionable guidance.
