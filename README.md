@@ -16,6 +16,17 @@ BeneGuide is an intelligent healthcare benefits navigation system that helps use
 - **Responsive Design**: Optimized for mobile-first experience with progressive enhancement
 - **Real-time Generation**: Fast AI-powered content generation with intelligent fallbacks
 
+### 📋 Table of Contents
+
+- [🚀 Quick Start](#-quick-start)
+- [🏗️ Architecture Deep Dive](#️-architecture-deep-dive)
+- [🎨 User Experience Flow](#-user-experience-flow)
+- [📱 Visual Overview & User Journey](#-visual-overview--user-journey)
+- [🤖 AI Prompts & Refinements](#-ai-prompts--refinements)
+- [🔧 State Management Architecture](#-state-management-architecture)
+- [⚠️ Known Issues & Limitations](#️-known-issues--limitations)
+- [🛠️ Development & Deployment](#️-development--deployment)
+
 ---
 
 ## 🚀 Quick Start
@@ -233,52 +244,111 @@ graph LR
 
 ---
 
-## 📱 Screenshots & User Journey
+## 📱 Visual Overview & User Journey
+
+> **Complete visual walkthrough of BeneGuide's AI-powered benefits discovery experience**
+
+### 📁 Visual Assets Directory
+
+All screenshots and recordings are stored in the `public` folder for easy access and deployment:
+
+```
+public/
+├── screenshots/           # Desktop and mobile UI screenshots
+│   ├── input.png         # Desktop input screen
+│   ├── input_light_mode.png
+│   ├── classification.png # AI analysis screen
+│   ├── benefits.png      # Benefits discovery screen
+│   ├── action_plan.png   # Generated action plans
+│   ├── mobile_input.png  # Mobile input interface
+│   └── mobile_benefits.png
+└── screenrecording/       # Full demo videos
+    └── BeneGuide - AI-Powered Benefits Discovery.mp4
+```
+
+### 🎬 Complete User Journey Demo
+
+#### 📹 Screen Recording - Full Flow Walkthrough
+
+**[🎥 Watch Full Demo Video](./public/screenrecording/BeneGuide%20-%20AI-Powered%20Benefits%20Discovery%20-%20Google%20Chrome%202025-09-28%2000-06-41.mp4)**
+
+> *Complete demonstration of the AI-powered benefits discovery process from query input to actionable plan generation. Shows real AI classification, benefit matching, and personalized action plan creation.*
+
+**Demo Highlights:**
+- Natural language query processing ("I'm feeling anxious")
+- Real-time AI classification with confidence scoring  
+- Dynamic benefit matching and card generation
+- AI-powered action plan creation with specific steps
+- Mobile-responsive design demonstration
 
 ### Desktop Experience
 
 #### 1. Input Screen - Natural Query Entry
-```
-🖥️ Clean, centered input with helpful examples
-📝 "I'm feeling anxious and need someone to talk to"
-🔍 Smart suggestions and query refinement
-```
+![Input Screen](./public/screenshots/input.png)
+
+**Features Shown:**
+- 🖥️ Clean, centered input with helpful examples
+- 📝 Natural language query processing
+- 🔍 Smart suggestions and query refinement
+- 🌙 Light mode variant available
+
+![Input Screen Light Mode](./public/screenshots/input_light_mode.png)
 
 #### 2. Classification Screen - AI Analysis  
-```
-🧠 Real-time AI processing with loading states
-📊 Confidence scoring and category explanation
-⚡ "Mental Health (87% confidence)"
-```
+![Classification Screen](./public/screenshots/classification.png)
+
+**AI Processing Display:**
+- 🧠 Real-time AI processing with loading states
+- 📊 Confidence scoring and category explanation
+- ⚡ "Mental Health (87% confidence)" with reasoning
+- 🎯 Clear categorization with user-friendly descriptions
 
 #### 3. Benefits Screen - Smart Matching
-```
-📋 Grid layout with benefit cards
-💳 "Mental Health & Counseling - 12 sessions covered"  
-🎯 Network details, limits, and coverage info
-```
+![Benefits Screen](./public/screenshots/benefits.png)
+
+**Benefit Discovery Interface:**
+- 📋 Responsive grid layout with benefit cards
+- 💳 "Mental Health & Counseling - 12 sessions covered"  
+- 🎯 Network details, limits, and coverage information
+- 🔄 Loading states during AI plan generation
 
 #### 4. Action Plan Screen - Tailored Guidance
-```
-✅ Step-by-step actionable plan
-🏥 "Find Aetna therapist in your area"
-⏱️ Time estimates and progress tracking
-```
+![Action Plan Screen](./public/screenshots/action_plan.png)
 
-### Mobile Experience
+**Personalized Action Plans:**
+- ✅ Step-by-step actionable plan tailored to specific benefits
+- 🏥 "Find Aetna therapist in your area" with specific instructions
+- ⏱️ Realistic time estimates and progress tracking
+- 📋 Expandable step details with comprehensive guidance
 
-#### Responsive Adaptations
-- **Hidden Progress Bar**: More screen real estate on mobile
-- **Stacked Layouts**: Single-column benefit cards  
-- **Touch Optimization**: Larger tap targets and spacing
-- **Performance**: Optimized loading and animations
+### 📱 Mobile Experience
 
-### Key Mobile Screenshots
-```
-📱 Input: Full-width search with mobile keyboard optimization
-📱 Benefits: Single column with centered cards for 1-2 benefits
-📱 Plans: Expandable accordion steps for better mobile UX
-```
+#### Responsive Design Adaptations
+- **Hidden Progress Bar**: More screen real estate on mobile devices
+- **Stacked Layouts**: Single-column benefit cards optimized for touch
+- **Touch Optimization**: Larger tap targets and improved spacing
+- **Performance**: Optimized loading states and smooth animations
+
+#### Mobile Screenshots
+
+##### Mobile Input Screen
+![Mobile Input](./public/screenshots/mobile_input.png)
+
+**Mobile-First Features:**
+- 📱 Full-width search optimized for mobile keyboards
+- 👆 Touch-friendly input areas and button sizing
+- 🎯 Simplified interface focusing on core functionality
+- ⚡ Fast loading with progressive enhancement
+
+##### Mobile Benefits Screen
+![Mobile Benefits](./public/screenshots/mobile_benefits.png)
+
+**Responsive Benefits Display:**
+- 📱 Single column layout for optimal mobile viewing
+- 🎯 Centered cards for 1-2 benefits with proper spacing
+- � Large, touch-friendly "View Action Plan" buttons
+- 📊 Condensed information hierarchy for mobile screens
+- 🔄 Mobile-optimized loading states and interactions
 
 ---
 
